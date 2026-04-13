@@ -7,3 +7,5 @@ torchdiffeq
 torch 
 torchvision
 seaborn
+optuna
+optuna-dashboard
