@@ -1,0 +1,18 @@
+\begin{tikzpicture}[transform shape]
+	% Paths, nodes and wires:
+	\draw (5, 5) to[cute inductor, l={$L$}] (5, 3);
+	\draw (7, 5) to[capacitor, l={$C_1$}] (7, 3);
+	\draw (9, 5) to[capacitor, l={$C_2$}] (9, 3);
+	\draw (11, 5) to[european resistor, l={$N$}] (11, 3);
+	\draw (7, 6) to[american resistor, l={$R$}] (9, 6);
+	\draw (5, 5.25) -| (5, 6) -- (7, 6);
+	\draw (5, 5.25) -- (5, 5);
+	\draw (5, 3) -| (5, 2) -- (11, 2) -- (11, 3.25);
+	\draw (9, 6) -- (11, 6) -| (11, 5);
+	\draw (9, 5) -- (9, 6);
+	\draw (9, 3) -| (9, 2);
+	\draw (7, 3) -- (7, 2);
+	\draw (7, 5) -| (7, 6);
+	\draw[dash pattern={on 1.6pt off 1.6pt}, -latex] (4.5, 5.5) -| (4.5, 6.5) -- (5.5, 6.5);
+	\node[shape=rectangle, minimum width=1.965cm, minimum height=0.965cm] at (5.75, 6.75){} node[anchor=north west, align=left, text width=1.577cm, inner sep=6pt] at (4.75, 7.25){$i$};
+\end{tikzpicture}

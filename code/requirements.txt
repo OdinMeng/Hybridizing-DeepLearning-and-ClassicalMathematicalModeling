@@ -9,3 +9,5 @@ torchvision
 seaborn
 optuna
 optuna-dashboard
+plotly
+nbformat
