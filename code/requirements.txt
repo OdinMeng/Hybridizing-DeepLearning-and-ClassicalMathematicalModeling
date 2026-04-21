@@ -11,3 +11,8 @@ optuna
 optuna-dashboard
 plotly
 nbformat
+diffrax
+equinox
+jax
+optax
+pysr
