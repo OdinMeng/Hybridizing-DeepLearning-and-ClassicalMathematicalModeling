@@ -15,4 +15,5 @@ diffrax
 equinox
 jax
 optax
+optimistix
 pysr
